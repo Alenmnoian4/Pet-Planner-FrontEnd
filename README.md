@@ -5,25 +5,26 @@
 Pet log will be a full crud application where you can log and track the growth of your pet. As someone who has a 6 month old puppy, I would like to be able to have something where I can see how he has grown in size, weight, eating schedules, vet visits, grooming appointments, or whatever else you would like to log.
 
 # Technologies To Be Used
--PostSQL 
--JavaScript 
--React Router Dom 
--React JS 
--Postman 
--Render 
--Trello 
--Figma
 
-# The Route Table
+-JavaScript 
+-React
+-CSS
+
+
+# Component Architecture 
+
+![image](https://user-images.githubusercontent.com/116233849/220708665-55ba3019-0412-4aed-904b-c7ddd53eba1c.png)
 
 ## The Route Table
-| Endpoint | Method | Description|
-|----------|--------|------------|
-| /logs | GET | returns all posts|
-| /logs/:id | GET | returns a single post |
-| /logs | POST | creates a post |
-| /logs/:id | PUT | updates a post based on id |
-| /logs/:id | DELETE | deletes a post based on id |
+
+| Route | Element | Loader | Action | Summary |
+|-------|---------|--------|--------|---------|
+| / | Home | indexLoader | | Home page |
+| /logs | index | indexLoader |  | returns all logs|
+| /logs/:id | show | logShowLoader |  | returns single log|
+| /logs/create |  | | logCreateAction | creates log |
+| /logs/update |  | | logUpdateAction | update log |
+| /logs/delete |  | | logDeleteAction | deletes log |
 
 # Trello Board
 
