@@ -10,6 +10,10 @@ Pet log will be a full crud application where you can log and track the growth o
 -React
 -CSS
 
+# Model Schema
+
+![image](https://user-images.githubusercontent.com/116233849/220825916-a0c9148b-431e-4760-9c1a-d2786106c7e6.png)
+
 
 # Component Architecture 
 
